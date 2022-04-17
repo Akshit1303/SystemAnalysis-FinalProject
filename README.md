@@ -20,5 +20,5 @@
 #Here is the link to the working instance: https://us-west-1.console.aws.amazon.com/ec2/v2/home?region=us-west-1#InstanceDetails:instanceId=i-0f163a587f65b6b3c
 # The ip address is 3.101.13.18 and it is on port 5000
 
-![aws](aws.PNG)
+![aws](aws.png)
 

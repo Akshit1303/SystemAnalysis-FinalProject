@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Information</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        p{
+            color: crimson;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: large;
+        }
+        h3{
+            color: darkmagenta;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <form action="home.htm" method="POST">
+        <h3>Product Information</h3>
+
+        <p>Product Name</p>
+        <p><input type="text" name="nm"/></p>
+
+        <p>Description</p>
+        <p><input type="text" name="desc"/></p>
+
+        <p>Quatity</p>
+        <p><input type="text" name="quan"/></p>
+
+        <p>Checkin Date</p>
+        <p><input type="date" name="date"/></p>
+
+        <input type="button" onclick="location.href='summary.htm';" value="Submit"/>
+    </form> 
+</body>
+</html>
